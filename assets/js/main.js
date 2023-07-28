@@ -38,6 +38,7 @@ function createCalculator() {
 
         btnForDisplay(valueElement) {
             this.display.value += valueElement;
+            this.display.focus();
         },
 
         clearDisplay() {
